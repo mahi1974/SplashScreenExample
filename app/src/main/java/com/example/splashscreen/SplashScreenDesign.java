@@ -23,7 +23,7 @@ public class SplashScreenDesign extends AppCompatActivity {
         pbCount=findViewById(R.id.lbl1);
         pb=findViewById(R.id.progressBar);
 
-        Intent a=new Intent(getApplicationContext(),MainActivity.class);
+        Intent a=new Intent(SplashScreenDesign.this,MainActivity.class);
         new Thread(new Runnable() {
             @Override
             public void run() {
